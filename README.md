@@ -1,11 +1,12 @@
 # Practice-Js
+
 ## OVERVIEW
 
 - This document provides the list of important technologies that would be used to implement, the objectives to be achieved and the progress of the project.
 
 ## TIMELINE:
 
-- Jan 22 - Feb 
+- ...
 
 ## TARGET:
 
@@ -20,10 +21,9 @@
 - Parcel
 - MVCS
 
-
 ## SOURCE CODE
 
-- Clone project : git clone 
+- Clone project : git clone
 
 ## HOW TO RUN
 
@@ -34,9 +34,9 @@
 $npm i
 $npm start
 
-$npm run watchDB 
+$npm run watchDB
 - To view db.json
-$node src/api/video.js 
+$node src/api/video.js
 - To view and render video and image
 
 Open on web: http://localhost:1235
