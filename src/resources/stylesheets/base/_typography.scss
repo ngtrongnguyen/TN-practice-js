@@ -10,11 +10,9 @@ body {
   font-size: 1rem;
   line-height: 24px;
   color: $text-color;
-  font-family: $primary-font;
 }
 .main {
   position: relative;
-  background-image: url('../assets/icons/lg-bgr.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -58,13 +56,4 @@ body::-webkit-scrollbar {
   border: 3px solid red !important;
   position: relative;
   animation: shake 3s infinite;
-}
-@keyframes shake {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
 }
