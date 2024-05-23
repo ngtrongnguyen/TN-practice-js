@@ -1,8 +1,9 @@
 import CrudView from '../views/crud.views';
 
-class CrudView {
-    constructor( movieViews) {
+class CrudController {
+  constructor(movieViews) {
     this.CrudView = CrudView;
+  }
 }
 
-Export default CrudView;
+export default CrudController;
