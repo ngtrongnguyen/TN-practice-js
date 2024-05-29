@@ -1,8 +1,9 @@
 import CrudView from '../views/crud.views';
 
 class CrudController {
-  constructor(movieViews) {
-    this.CrudView = CrudView;
+  constructor(model, view) {
+    this.model = model;
+    this.view = view;
   }
 }
 

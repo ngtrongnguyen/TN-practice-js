@@ -13,6 +13,4 @@ class CrudView {
   }
 }
 
-let html = document.getElementById('root').innerHTML;
-document.getElementById('root').innerHTML = html;
 export default CrudView;

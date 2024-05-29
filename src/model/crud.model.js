@@ -1,1 +1,5 @@
-import CrudView from '../views/crud.views';
+class Model {
+  constructor() {}
+}
+
+export Model from '../model/crud.model';
