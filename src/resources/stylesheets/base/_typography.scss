@@ -12,7 +12,7 @@ body {
   font-weight: 400;
   font-size: 1rem;
   line-height: 24px;
-  color: $text-color;
+  // color: $text-color;
   h1 {
     font-family: Montserrat-b;
     font-size: 22px;
@@ -51,11 +51,11 @@ body {
   }
 }
 .main {
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
+  // position: relative;
+  // background-size: cover;
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // overflow: hidden;
 
   &::after {
     content: '';

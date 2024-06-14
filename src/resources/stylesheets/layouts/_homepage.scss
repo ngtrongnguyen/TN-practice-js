@@ -1,5 +1,7 @@
 @use '../abstracts/' as *;
 
 #root {
-  color: $backround-color-opacity;
+  background-color: $backround-color;
+  width: 100px;
+  height: 100px;
 }
