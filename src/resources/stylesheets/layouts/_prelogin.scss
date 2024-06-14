@@ -4,8 +4,8 @@
   @include flex($direction: column, $justify: space-between, $align: center);
   background-color: $btn-light;
   border: 5px solid;
-  border-radius: 5px;
-  margin: 25% 35%;
+  border-radius: 15px;
+  margin: 25% 30%;
   .form-head-login {
     .form-login-title {
       margin: 10px;
@@ -25,7 +25,6 @@
         }
       }
       p {
-        text-align: center;
         margin: 0 1rem;
       }
       span {
@@ -34,13 +33,33 @@
     }
   }
   .form-bottom-login {
-    @include flex($direction: column, $justify: space-between, $align: center);
+    margin: 1rem;
+    @include flex($direction: column, $justify: space-between, $align: left);
     .form-login {
-      @include flex(
-        $direction: column,
-        $justify: space-between,
-        $align: center
-      );
+      @include flex($direction: column, $justify: space-between, $align: left);
+      gap: 1rem;
+      input {
+        margin: 0;
+        outline: auto;
+        font-family: Montserrat;
+        outline-color: $outline;
+        padding: 1em;
+        width: 100%;
+        border: none;
+        border-radius: 0.25em;
+      }
+    }
+    .form-reset-pass {
+      margin-top: 1rem;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 17.07px;
+      text-align: left;
+      span {
+        color: $register-span;
+        text-decoration: underline;
+      }
     }
   }
 }

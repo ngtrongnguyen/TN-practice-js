@@ -1,15 +1,54 @@
 @use '../abstracts' as *;
 
 @font-face {
-  font-family: Poppins;
-  src: url(../assets/fonts/Poppins-Medium.ttf);
+  font-family: Montserrat;
+  src: url(../assets/fonts/Montserrat-Light.ttf);
 }
-
+@font-face {
+  font-family: Montserrat-b;
+  src: url(../assets/fonts/Montserrat-SemiBold.ttf);
+}
 body {
   font-weight: 400;
   font-size: 1rem;
   line-height: 24px;
   color: $text-color;
+  h1 {
+    font-family: Montserrat-b;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26.82px;
+    text-align: center;
+  }
+  b {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26.82px;
+    text-align: left;
+  }
+  p {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26.82px;
+    text-align: center;
+  }
+  span {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: center;
+  }
+  label {
+    font-family: Montserrat-b;
+    color: $label-color;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+  }
 }
 .main {
   position: relative;

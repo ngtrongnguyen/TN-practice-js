@@ -12,7 +12,9 @@ class CrudView {
     this.router = new Router();
     this.initRoute();
   }
-
+  introduce() {
+    console.log(`${this.app}`);
+  }
   initRoute() {
     this.router.addRoute('/', PreLogin());
   }
