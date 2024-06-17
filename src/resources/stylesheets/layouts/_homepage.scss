@@ -1,0 +1,7 @@
+@use '../abstracts/' as *;
+
+#root {
+  background-color: $backround-color;
+  width: 100px;
+  height: 100px;
+}

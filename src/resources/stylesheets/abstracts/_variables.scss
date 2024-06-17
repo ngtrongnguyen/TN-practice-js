@@ -1,11 +1,11 @@
 $primary-font: Poppins;
 $text-color: white;
-
-
-
+$register-span: #fec340;
+$label-color: #919191;
+$backround-color: linear-gradient(to right, #feaf00, #f8d442);
 //button
-$button-watch-color:#6100C2;
-$button-submit-color:rgba(39, 245, 49, 0.8);
+$button-watch-color: #6100c2;
+$button-submit-color: rgba(39, 245, 49, 0.8);
 $button-active-color: #f61212;
 $btn-dark: #34495e;
 $btn-light: #ffffff;
@@ -13,9 +13,9 @@ $btn-success: #0abf30;
 $btn-error: #e24d4c;
 $btn-warning: #e9bd0c;
 $btn-info: #3498db;
-
+$outline: #e5e5e5;
 $bg-inactive: #fbe7e8;
-
-
-$backround-color-opacity:#230026;
-$background-left-nav: #21201E;
+$btnbg-color: #feaf00;
+$backround-color-opacity: #230026;
+$background-left-nav: #21201e;
+$li-hover: #ff6f28;
