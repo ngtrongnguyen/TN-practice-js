@@ -1,3 +1,4 @@
+
 class Router {
   constructor(root) {
     this.routes = [];

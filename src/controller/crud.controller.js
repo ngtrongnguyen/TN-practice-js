@@ -1,6 +1,9 @@
+
+import Model from '../model/crud.model';
 import CrudView from '../views/crud.views';
 
-class CrudController {
+class Controller {
+
   constructor(model, view) {
     this.model = model;
     this.view = view;
@@ -8,3 +11,4 @@ class CrudController {
 }
 
 export default CrudController;
+
