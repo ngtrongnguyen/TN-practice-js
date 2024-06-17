@@ -11,6 +11,7 @@ class CrudView {
     // add class container
     this.container = document.createElement('div');
     this.container.classList.add('container');
+    this.app.appendChild(this.main);
     // append container
     this.main.appendChild(this.container);
     //  append main into app
