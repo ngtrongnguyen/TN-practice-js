@@ -1,6 +1,8 @@
 import PreLogin from './pages/PreLogin';
 import Router from '../router/Router';
-
+export * from './components';
+export * from './layouts';
+export * from './pages';
 class CrudView {
   contructor() {
     // The root element
@@ -27,14 +29,5 @@ class CrudView {
     this.router.addRoute('/', PreLogin());
   }
 }
-function Hero(name, level) {
-  this.name = name;
-  this.level = level;
-}
-
-// Adding a method to the constructor
-Hero.prototype.greet = function () {
-  return `${this.name} says hello.`;
-};
 
 export default CrudView;

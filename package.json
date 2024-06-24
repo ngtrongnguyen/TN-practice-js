@@ -1,7 +1,7 @@
 {
-  "name": "tito-practice-js",
+  "name": "tito-practice",
   "version": "1.0.0",
-  "description": "",
+  "description": "- This document provides the list of important technologies that would be used to implement, the objectives to be achieved and the progress of the project.",
   "source": "src/resources/index.html",
   "scripts": {
     "watchDB": "json-server --watch db.json --port 3021",
@@ -56,6 +56,6 @@
     "json-server": "^0.17.3",
     "mime-types": "^2.1.35",
     "uuid": "^9.0.0"
-  }
-  
+  },
+  "main": ".eslintrc.js"
 }
