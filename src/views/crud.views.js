@@ -14,13 +14,12 @@ class CrudView {
     this.container = document.createElement('div');
     this.container.classList.add('container');
     this.app.appendChild(this.main);
-    // append container
-    this.main.appendChild(this.container);
     //  append main into app
-    this.app.appendChild(this.main);
+    this.main.appendChild(this.container);
+    //  append container
 
     // show on PreLogin page into container
-    this.container.outerHTML += PreLogin();
+    this.container.innerHTML += PreLogin();
     this.router = new Router();
     this.initRoute();
   }
